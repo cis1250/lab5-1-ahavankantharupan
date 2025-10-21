@@ -2,7 +2,7 @@
 
 # Fibonacci Sequence Exercise with functions
 # TODO: (Read detailed instructions in the Readme file)
-def get_positive_integer(prompt):
+def positive_integer(prompt):
     user_input = input(prompt)
 
     # Repeat until a valid positive integer is entered will not except a negeative number 
@@ -12,7 +12,7 @@ def get_positive_integer(prompt):
 
     return int(user_input)
 
-def generate_fibonacci(x):
+def make_fibonacci(x):
     fib_sequence = []
     num1= 0
     num2= 1
